@@ -64,8 +64,8 @@ const AppContent = () => {
   return (
     <div className={styles.app} style={{ backgroundColor: theme.background }}>
       <header className={styles.header}>
-        <h1 className={styles.title}>🦆 Duckles</h1>
-        <p className={styles.subtitle}>Collect and explore amazing duck characters!</p>
+        <h1 className={styles.title}>Duckles and Friends</h1>
+        <p className={styles.subtitle}>Heath's duck army</p>
       </header>
 
       <ThemeSwitcher />
