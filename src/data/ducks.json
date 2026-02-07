@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Quackers the Brave",
+    "type": "Adventure",
+    "description": "A fearless explorer who loves discovering new ponds and making friends along the way.",
+    "image": "/images/duck1.svg"
+  },
+  {
+    "id": 2,
+    "name": "Waddles the Wise",
+    "type": "Scholar",
+    "description": "An intelligent duck who spends hours reading by the water and sharing knowledge with others.",
+    "image": "/images/duck2.svg"
+  },
+  {
+    "id": 3,
+    "name": "Splash the Playful",
+    "type": "Athlete",
+    "description": "The fastest swimmer in the pond, always ready for a race or a game of water tag.",
+    "image": "/images/duck3.svg"
+  },
+  {
+    "id": 4,
+    "name": "Feathers the Artist",
+    "type": "Creative",
+    "description": "A creative soul who paints beautiful scenes of the pond and its inhabitants.",
+    "image": "/images/duck4.svg"
+  },
+  {
+    "id": 5,
+    "name": "Nibbles the Chef",
+    "type": "Culinary",
+    "description": "Master of aquatic cuisine, known for creating delicious treats from pond plants.",
+    "image": "/images/duck5.svg"
+  },
+  {
+    "id": 6,
+    "name": "Melody the Singer",
+    "type": "Musical",
+    "description": "With a voice like a songbird, she fills the pond with beautiful melodies each morning.",
+    "image": "/images/duck6.svg"
+  },
+  {
+    "id": 7,
+    "name": "Rocket the Speedy",
+    "type": "Athlete",
+    "description": "The fastest flyer in the flock, loves racing across the sky at dawn.",
+    "image": "/images/duck7.svg"
+  },
+  {
+    "id": 8,
+    "name": "Professor Quill",
+    "type": "Scholar",
+    "description": "Studies the stars and teaches other ducks about the wonders of the universe.",
+    "image": "/images/duck8.svg"
+  },
+  {
+    "id": 9,
+    "name": "Bubbles the Happy",
+    "type": "Social",
+    "description": "Always cheerful and spreads joy wherever she waddles, the life of every pond party.",
+    "image": "/images/duck9.svg"
+  },
+  {
+    "id": 10,
+    "name": "Shadow the Mysterious",
+    "type": "Adventure",
+    "description": "A secretive duck who appears at night and knows all the pond's hidden treasures.",
+    "image": "/images/duck10.svg"
+  },
+  {
+    "id": 11,
+    "name": "Sunny the Optimist",
+    "type": "Social",
+    "description": "Believes every day is beautiful and helps others see the bright side of everything.",
+    "image": "/images/duck11.svg"
+  },
+  {
+    "id": 12,
+    "name": "Thunder the Guardian",
+    "type": "Protector",
+    "description": "Watches over the pond and keeps all the ducklings safe from danger.",
+    "image": "/images/duck12.svg"
+  },
+  {
+    "id": 13,
+    "name": "Whisper the Gentle",
+    "type": "Healer",
+    "description": "Has a calming presence and helps injured animals recover with herbal remedies.",
+    "image": "/images/duck13.svg"
+  },
+  {
+    "id": 14,
+    "name": "Dizzy the Acrobat",
+    "type": "Athlete",
+    "description": "Performs amazing aerial tricks and stunts that leave everyone amazed.",
+    "image": "/images/duck14.svg"
+  },
+  {
+    "id": 15,
+    "name": "Patches the Builder",
+    "type": "Engineer",
+    "description": "Expert nest builder who creates the most comfortable homes in the pond.",
+    "image": "/images/duck15.svg"
+  },
+  {
+    "id": 16,
+    "name": "Sparkle the Glamorous",
+    "type": "Fashion",
+    "description": "Always looks fabulous and helps other ducks with their appearance and style.",
+    "image": "/images/duck16.svg"
+  },
+  {
+    "id": 17,
+    "name": "Storm the Adventurer",
+    "type": "Adventure",
+    "description": "Loves flying through storms and discovering new territories beyond the pond.",
+    "image": "/images/duck17.svg"
+  },
+  {
+    "id": 18,
+    "name": "Cookie the Baker",
+    "type": "Culinary",
+    "description": "Creates delicious bread crumb recipes and hosts the best picnics by the water.",
+    "image": "/images/duck18.svg"
+  },
+  {
+    "id": 19,
+    "name": "Zen the Peaceful",
+    "type": "Spiritual",
+    "description": "Meditates by the lily pads and teaches mindfulness to all who seek inner peace.",
+    "image": "/images/duck19.svg"
+  },
+  {
+    "id": 20,
+    "name": "Captain Quack",
+    "type": "Leader",
+    "description": "Commands the duck squadron with wisdom and courage, leading migrations across continents.",
+    "image": "/images/duck20.svg"
+  }
+]

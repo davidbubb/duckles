@@ -1,0 +1,90 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0 0 8px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  margin: 0;
+}
+
+.viewToggle {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.toggleButton {
+  padding: 12px 24px;
+  border: 2px solid white;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 44px;
+}
+
+.toggleButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.toggleButton.active {
+  background: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContainer {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  touch-action: pan-y;
+}
+
+.swipeHint {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  margin-top: 16px;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+}
