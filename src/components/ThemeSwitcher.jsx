@@ -2,11 +2,11 @@ import { useTheme } from '../context/ThemeContext';
 import styles from './ThemeSwitcher.module.css';
 
 const ThemeSwitcher = () => {
-  const { currentTheme, setTheme, themes } = useTheme();
+  const { currentTheme, setTheme, themes, theme } = useTheme();
 
   return (
     <div className={styles.themeSwitcher}>
-      <label htmlFor="theme-select" className={styles.label}>
+      <label htmlFor="theme-select" className={styles.label} style={{ color: theme.primary }}>
         Choose Theme:
       </label>
       <select 

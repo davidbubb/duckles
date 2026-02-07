@@ -5,7 +5,7 @@ export const themes = {
     secondary: '#4da6d6',
     background: '#e6f3ff',
     cardBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    text: '#ffffff',
+    text: '#000000',
     badgeBg: '#ffffff',
     badgeText: '#0077be'
   },

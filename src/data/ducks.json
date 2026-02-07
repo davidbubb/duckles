@@ -29,31 +29,31 @@
   },
   {
     "id": 5,
-    "name": "Nibbles the Chef",
-    "type": "Culinary",
-    "description": "Master of aquatic cuisine, known for creating delicious treats from pond plants.",
-    "image": "images/duck5.svg"
+    "name": "Duckles",
+    "type": "Leader",
+    "description": "The charismatic leader of the duck squad, known for his wisdom and bravery, always guiding his flock through adventures and challenges with a quack of confidence.",
+    "image": "images/duckles.jpg"
   },
   {
     "id": 6,
-    "name": "Melody the Singer",
-    "type": "Musical",
-    "description": "With a voice like a songbird, she fills the pond with beautiful melodies each morning.",
-    "image": "images/duck6.svg"
+    "name": "Fake Duck",
+    "type": "Fake",
+    "description": "A mysterious duck that looks real but is actually a clever decoy, often used to trick predators and protect the real ducks in the pond.",
+    "image": "images/fakeDuck.jpg"
   },
   {
     "id": 7,
-    "name": "Rocket the Speedy",
-    "type": "Athlete",
-    "description": "The fastest flyer in the flock, loves racing across the sky at dawn.",
-    "image": "images/duck7.svg"
+    "name": "Baby Fake Duck",
+    "type": "Fake",
+    "description": "A smaller version of the fake duck, designed to look like a baby duckling, used to lure predators away from the real ducklings and keep them safe.",
+    "image": "images/babyFakeDuck.jpg"
   },
   {
     "id": 8,
-    "name": "Professor Quill",
-    "type": "Scholar",
-    "description": "Studies the stars and teaches other ducks about the wonders of the universe.",
-    "image": "images/duck8.svg"
+    "name": "Combination Duck",
+    "type": "Secret",
+    "description": "A rare and mysterious duck that is said to be a combination of all the different types of ducks in the pond, possessing unique traits and abilities that make it a legend among the duck community.",
+    "image": "images/duckCombination.jpg"
   },
   {
     "id": 9,
