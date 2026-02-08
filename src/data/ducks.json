@@ -57,24 +57,24 @@
   },
   {
     "id": 9,
-    "name": "Bubbles the Happy",
-    "type": "Social",
-    "description": "Always cheerful and spreads joy wherever she waddles, the life of every pond party.",
-    "image": "images/duck9.svg"
+    "name": "Toilet Duck",
+    "type": "Household",
+    "description": "A quirky duck that lives in the bathroom, known for its bright blue color and its ability to clean toilets with a powerful quack, making it a favorite among homeowners who want to keep their bathrooms sparkling clean.",
+    "image": "images/toiletDuck.jpg"
   },
   {
     "id": 10,
-    "name": "Shadow the Mysterious",
-    "type": "Adventure",
-    "description": "A secretive duck who appears at night and knows all the pond's hidden treasures.",
-    "image": "images/duck10.svg"
+    "name": "Basketball Duck",
+    "type": "Sporty",
+    "description": "A sporty duck that loves to play basketball, often seen dribbling a small ball with its beak and shooting hoops with impressive accuracy, inspiring other ducks to get active and have fun on the court.",
+    "image": "images/basketballDuck.jpg"
   },
   {
     "id": 11,
-    "name": "Sunny the Optimist",
-    "type": "Social",
-    "description": "Believes every day is beautiful and helps others see the bright side of everything.",
-    "image": "images/duck11.svg"
+    "name": "Burger Duck",
+    "type": "Food",
+    "description": "A delicious duck that looks like a burger, complete with a bun, lettuce, and cheese, known for its mouthwatering appearance and its ability to satisfy hunger cravings with just one look.",
+    "image": "images/burgerDuck.jpg"
   },
   {
     "id": 12,
