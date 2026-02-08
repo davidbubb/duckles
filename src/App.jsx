@@ -62,10 +62,10 @@ const AppContent = () => {
   );
 
   return (
-    <div className={styles.app} style={{ backgroundColor: theme.background }}>
+    <div className={styles.app} style={{ background: theme.background }}>
       <header className={styles.header}>
-        <h1 className={styles.title} style={{color: theme.primary}}>Duckles and Friends</h1>
-        <p className={styles.subtitle} style={{color: theme.primary}}>Heath's duck army</p>
+        <h1 className={styles.title} style={{color: theme.text}}>Duckles and Friends</h1>
+        <p className={styles.subtitle} style={{color: theme.textSecondary}}>Heath's duck army</p>
       </header>
 
       <ThemeSwitcher />
@@ -74,7 +74,7 @@ const AppContent = () => {
         <button
           className={`${styles.toggleButton} ${viewMode === 'card' ? styles.active : ''}`}
           onClick={() => setViewMode('card')}
-          style={{ color: viewMode === 'card' ? theme.primary : theme.primary }}
+          style={{ color: theme.text }}
           aria-pressed={viewMode === 'card'}
         >
           📇 Card View
@@ -82,7 +82,7 @@ const AppContent = () => {
         <button
           className={`${styles.toggleButton} ${viewMode === 'gallery' ? styles.active : ''}`}
           onClick={() => setViewMode('gallery')}
-          style={{ color: viewMode === 'gallery' ? theme.primary : theme.primary }}
+          style={{ color: theme.text }}
           aria-pressed={viewMode === 'gallery'}
         >
           🎴 Gallery View
@@ -94,7 +94,7 @@ const AppContent = () => {
           <>
             <div {...bind()} className={styles.cardContainer}>
               <DuckCard duck={ducksData[currentIndex]} />
-              <div className={styles.swipeHint} style={{ color: theme.primary }}>
+              <div className={styles.swipeHint} style={{ color: theme.textSecondary }}>
                 👆 Swipe left or right on mobile
               </div>
             </div>

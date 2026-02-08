@@ -15,27 +15,26 @@
 
 .select {
   padding: 10px 16px;
-  border-radius: 8px;
-  border: 2px solid white;
-  background: white;
-  color: #333;
+  border-radius: 12px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   min-height: 44px;
-  min-width: 150px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 180px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease;
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .select:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border-color: #f0f0f0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
 }
 
 .select option {
-  color: #333;
-  background: white;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 8px;
 }
 
 .select:focus {

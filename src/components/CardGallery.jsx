@@ -10,6 +10,10 @@ const CardGallery = ({ ducks, onSelectDuck }) => {
         <div 
           key={duck.id}
           className={styles.galleryCard}
+          style={{
+            background: theme.cardBg,
+            border: `1px solid ${theme.glassBorder}`
+          }}
           onClick={() => onSelectDuck(duck.id - 1)}
           role="button"
           tabIndex={0}
@@ -29,12 +33,12 @@ const CardGallery = ({ ducks, onSelectDuck }) => {
                 loading="lazy"
               />
             </div>
-            <h3 className={styles.galleryName}>{duck.name}</h3>
+            <h3 className={styles.galleryName} style={{ color: theme.text }}>{duck.name}</h3>
             <span 
               className={styles.galleryBadge}
               style={{
-                background: theme.primary,
-                color: 'white'
+                background: theme.badgeBg,
+                color: theme.badgeText
               }}
             >
               {duck.type}

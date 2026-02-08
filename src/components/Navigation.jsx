@@ -10,13 +10,24 @@ const Navigation = ({ currentIndex, totalDucks, onPrevious, onNext, onRandom }) 
         className={`${styles.button} ${styles.navButton}`}
         onClick={onPrevious}
         disabled={currentIndex === 0}
-        style={currentIndex === 0 ? { color: theme.primary, backgroundColor: theme.primary, opacity: 0.4 } : { color: theme.primary }}
+        style={{
+          background: theme.cardBg,
+          color: theme.text,
+          border: `2px solid ${theme.glassBorder}`
+        }}
         aria-label="Previous duck"
       >
         ← Previous
       </button>
       
-      <div className={styles.counter} style={{ color: theme.primary }}>
+      <div 
+        className={styles.counter} 
+        style={{ 
+          color: theme.text,
+          background: theme.cardBg,
+          border: `2px solid ${theme.glassBorder}`
+        }}
+      >
         {currentIndex + 1} / {totalDucks}
       </div>
       
@@ -24,7 +35,11 @@ const Navigation = ({ currentIndex, totalDucks, onPrevious, onNext, onRandom }) 
         className={`${styles.button} ${styles.navButton}`}
         onClick={onNext}
         disabled={currentIndex === totalDucks - 1}
-        style={currentIndex === totalDucks - 1 ? { color: theme.primary, backgroundColor: theme.primary, opacity: 0.4 } : { color: theme.primary }}
+        style={{
+          background: theme.cardBg,
+          color: theme.text,
+          border: `2px solid ${theme.glassBorder}`
+        }}
         aria-label="Next duck"
       >
         Next →

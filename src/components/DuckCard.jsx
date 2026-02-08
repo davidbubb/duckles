@@ -5,10 +5,16 @@ const DuckCard = ({ duck }) => {
   const { theme } = useTheme();
 
   return (
-    <div className={styles.card} style={{ background: theme.cardBg }}>
+    <div 
+      className={styles.card} 
+      style={{ 
+        background: theme.cardBg,
+        border: `1px solid ${theme.glassBorder}`
+      }}
+    >
       <div className={styles.cardInner}>
         <div className={styles.cardHeader}>
-          <h2 className={styles.cardTitle}>{duck.name}</h2>
+          <h2 className={styles.cardTitle} style={{ color: theme.text }}>{duck.name}</h2>
         </div>
         
         <div className={styles.imageContainer}>
@@ -32,7 +38,7 @@ const DuckCard = ({ duck }) => {
           </span>
         </div>
         
-        <p className={styles.description}>
+        <p className={styles.description} style={{ color: theme.textSecondary }}>
           {duck.description}
         </p>
       </div>

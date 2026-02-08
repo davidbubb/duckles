@@ -7,20 +7,45 @@ const THEME_STORAGE_KEY = 'duckles-theme';
 
 export const ThemeProvider = ({ children }) => {
   const [currentTheme, setCurrentTheme] = useState(() => {
-    // Load theme from localStorage or default to 'ocean'
+    // Load theme from localStorage or default to 'system'
     const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-    return savedTheme && themes[savedTheme] ? savedTheme : 'ocean';
+    return savedTheme || 'system';
   });
+
+  const [systemTheme, setSystemTheme] = useState(() => {
+    // Detect system preference
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return 'dark';
+    }
+    return 'light';
+  });
+
+  // Listen for system theme changes
+  useEffect(() => {
+    if (!window.matchMedia) return;
+
+    const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    
+    const handleChange = (e) => {
+      setSystemTheme(e.matches ? 'dark' : 'light');
+    };
+
+    darkModeQuery.addEventListener('change', handleChange);
+    return () => darkModeQuery.removeEventListener('change', handleChange);
+  }, []);
 
   useEffect(() => {
     // Save theme to localStorage whenever it changes
     localStorage.setItem(THEME_STORAGE_KEY, currentTheme);
   }, [currentTheme]);
 
-  const theme = themes[currentTheme];
+  // Resolve the actual theme based on system preference
+  const resolvedTheme = currentTheme === 'system' ? systemTheme : currentTheme;
+  const theme = themes[resolvedTheme] || themes.ocean;
 
   const value = {
     currentTheme,
+    resolvedTheme,
     theme,
     setTheme: setCurrentTheme,
     themes

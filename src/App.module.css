@@ -11,17 +11,16 @@
 }
 
 .title {
-  color: black;
   font-size: 36px;
   font-weight: 800;
   margin: 0 0 8px 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 0.9);
   font-size: 18px;
   margin: 0;
+  opacity: 0.95;
 }
 
 .viewToggle {
@@ -33,23 +32,30 @@
 
 .toggleButton {
   padding: 12px 24px;
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
   min-height: 44px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .toggleButton:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .toggleButton.active {
-  background: white;
+  background: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
 .content {
@@ -69,10 +75,10 @@
 
 .swipeHint {
   text-align: center;
-  color: rgba(0, 0, 0, 1);
   font-size: 14px;
   margin-top: 16px;
   padding: 8px;
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {
