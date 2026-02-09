@@ -78,17 +78,17 @@
   },
   {
     "id": 12,
-    "name": "Thunder the Guardian",
-    "type": "Protector",
-    "description": "Watches over the pond and keeps all the ducklings safe from danger.",
-    "image": "images/duck12.svg"
+    "name": "Snowboard Duck",
+    "type": "Sporty",
+    "description": "A sporty duck that loves to snowboard down snowy slopes, showing off impressive tricks and speed, inspiring other ducks to try winter sports.",
+    "image": "images/snowboardDuck.jpg"
   },
   {
     "id": 13,
-    "name": "Whisper the Gentle",
-    "type": "Healer",
-    "description": "Has a calming presence and helps injured animals recover with herbal remedies.",
-    "image": "images/duck13.svg"
+    "name": "Eclipse Duck",
+    "type": "Sun",
+    "description": "A mysterious duck that only appears during solar eclipses, known for its dark feathers and its ability to bring a sense of wonder and awe to those who witness its rare appearances.",
+    "image": "images/eclipseDuck.jpg"
   },
   {
     "id": 14,
