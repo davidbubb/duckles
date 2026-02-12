@@ -92,51 +92,51 @@
   },
   {
     "id": 14,
-    "name": "Dizzy the Acrobat",
-    "type": "Athlete",
-    "description": "Performs amazing aerial tricks and stunts that leave everyone amazed.",
-    "image": "images/duck14.svg"
+    "name": "Gamer Duck",
+    "type": "Technology",
+    "description": "A tech-savvy duck that loves to play video games, often seen with a gaming headset and a controller, known for its competitive spirit and its ability to dominate the virtual world with its quick reflexes and strategic thinking.",
+    "image": "images/gamerDuck.jpg"
   },
   {
     "id": 15,
-    "name": "Patches the Builder",
-    "type": "Engineer",
-    "description": "Expert nest builder who creates the most comfortable homes in the pond.",
-    "image": "images/duck15.svg"
+    "name": "Duolingo Duck",
+    "type": "Technology",
+    "description": "A language-learning duck that helps people learn new languages with its fun and interactive lessons, known for its bright green feathers and its ability to make language learning enjoyable and effective.",
+    "image": "images/duolingoDuck.jpg"
   },
   {
     "id": 16,
-    "name": "Sparkle the Glamorous",
-    "type": "Fashion",
-    "description": "Always looks fabulous and helps other ducks with their appearance and style.",
-    "image": "images/duck16.svg"
+    "name": "Oily Duck",
+    "type": "Stuff",
+    "description": "A duck that has gotten itself covered in oil, often found near industrial areas, known for its unfortunate situation and the efforts of wildlife rescuers to clean it up and help it recover.",
+    "image": "images/oilDuck.jpg"
   },
   {
     "id": 17,
-    "name": "Storm the Adventurer",
-    "type": "Adventure",
-    "description": "Loves flying through storms and discovering new territories beyond the pond.",
-    "image": "images/duck17.svg"
+    "name": "Pineapple Duck",
+    "type": "Food",
+    "description": "A tropical duck with a pineapple pattern, known for its sweet personality and love of sunny weather.",
+    "image": "images/pineappleDuck.jpg"
   },
   {
     "id": 18,
-    "name": "Cookie the Baker",
-    "type": "Culinary",
-    "description": "Creates delicious bread crumb recipes and hosts the best picnics by the water.",
-    "image": "images/duck18.svg"
+    "name": "Tennis Duck",
+    "type": "Sporty",
+    "description": "A sporty duck that loves to play tennis, often seen with a tiny racket and a ball, known for its agility and competitive spirit on the court.",
+    "image": "images/tennisDuck.jpg"
   },
   {
     "id": 19,
-    "name": "Zen the Peaceful",
-    "type": "Spiritual",
-    "description": "Meditates by the lily pads and teaches mindfulness to all who seek inner peace.",
-    "image": "images/duck19.svg"
+    "name": "Muffin Duck",
+    "type": "Food",
+    "description": "A sweet duck that looks like a muffin, complete with a fluffy top and a golden-brown body, known for its delicious appearance and its ability to bring smiles to those who see it.",
+    "image": "images/muffinDuck.jpg"
   },
   {
     "id": 20,
-    "name": "Captain Quack",
-    "type": "Leader",
-    "description": "Commands the duck squadron with wisdom and courage, leading migrations across continents.",
-    "image": "images/duck20.svg"
+    "name": "Longy",
+    "type": "Unknown",
+    "description": "A mysterious duck with an unusually long neck, often seen stretching its neck to reach high branches or to get a better view of its surroundings, known for its unique appearance and its ability to surprise other ducks with its unexpected length.",
+    "image": "images/longNeckDuck.jpg"
   }
 ]
