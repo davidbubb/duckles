@@ -138,5 +138,75 @@
     "type": "Unknown",
     "description": "A mysterious duck that is said to be a combination of two different ducks, possessing traits and abilities from both, making it a unique and intriguing member of the duck community.",
     "image": "images/longNeckDuck.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Cube Duck",
+    "type": "Unknown",
+    "description": "A duck that has been transformed into a cube shape, with its body and features perfectly squared off, creating a quirky and amusing sight that captures the imagination of those who see it.",
+    "image": "images/cubeDuck.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Stock o Ducks",
+    "type": "Unknown",
+    "description": "A stack of ducks piled on top of each other, creating a playful and amusing sight that showcases their teamwork and balance.",
+    "image": "images/stackODucks.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Melted Duck",
+    "type": "Unknown",
+    "description": "A duck that appears to be melting, with its body dripping and distorted, creating a surreal and intriguing sight that captivates the imagination of those who see it.",
+    "image": "images/meltedDuck.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Inverted Duck",
+    "type": "Unknown",
+    "description": "A duck that appears to be upside down, with its head and body inverted, creating a whimsical and amusing sight that brings smiles to those who encounter it.",
+    "image": "images/invertedDuck.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Larry Lizard",
+    "type": "Non Duck",
+    "description": "A lizard that has somehow found its way into the duck community, known for its scaly skin and its ability to blend in with the ducks, creating a humorous and unexpected addition to the pond.",
+    "image": "images/larryLizard.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Tim Tortoise",
+    "type": "Non Duck",
+    "description": "A tortoise that has somehow found its way into the duck community, known for its hard shell and slow pace, creating a humorous and unexpected addition to the pond.",
+    "image": "images/timTortoise.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Sam Spider",
+    "type": "Non Duck",
+    "description": "A spider that has somehow found its way into the duck community, known for its eight legs and ability to spin webs, creating a humorous and unexpected addition to the pond.",
+    "image": "images/samSpider.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Pineapple Larry Lizard",
+    "type": "Non Duck",
+    "description": "A lizard that has somehow found its way into the duck community, known for its scaly skin and its ability to blend in with the ducks, creating a humorous and unexpected addition to the pond.",
+    "image": "images/pineappleLarryLizard.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Pineapple Tim Tortoise",
+    "type": "Non Duck",
+    "description": "A tortoise that has somehow found its way into the duck community, known for its hard shell and slow pace, creating a humorous and unexpected addition to the pond.",
+    "image": "images/pineappleTimTortoise.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Pineapple Sam Spider",
+    "type": "Non Duck",
+    "description": "A spider that has somehow found its way into the duck community, known for its eight legs and ability to spin webs, creating a humorous and unexpected addition to the pond.",
+    "image": "images/pineappleSamSpider.jpg"
   }
 ]
